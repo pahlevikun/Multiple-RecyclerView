@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.github.pahlevikun.multipleselectrecyclerview.view.MainActivity">
+    tools:context="com.github.pahlevikun.multipleselectrecyclerview.view.DataActivity">
 
     <android.support.v7.widget.AppCompatButton
-        android:id="@+id/buttonSelect"
+        android:id="@+id/buttonSelesai"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@color/colorPrimary"
         android:gravity="center"
         android:text="Pilih"
-        android:layout_margin="16dp"
-        android:textColor="@color/colorWhite"
-        android:background="@color/colorPrimary"/>
+        android:textColor="@color/colorWhite" />
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/recyclerView"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
+        android:id="@+id/recyclerView2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
 </LinearLayout>
