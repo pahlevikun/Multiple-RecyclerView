@@ -1,4 +1,4 @@
-package com.github.pahlevikun.multipleselectrecyclerview.view.adapter;
+package com.github.pahlevikun.multipleselectrecyclerview.view.adapter.DataAdapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -6,14 +6,11 @@ import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.github.pahlevikun.multipleselectrecyclerview.presenter.interfaces.OnItemClickInterface;
-
 /**
  * Created by farhan on 3/17/18.
  */
 
 public class SelectAdapterItemClickListener implements RecyclerView.OnItemTouchListener {
-
 
     private OnItemClickInterface mListener;
     private GestureDetector mGestureDetector;

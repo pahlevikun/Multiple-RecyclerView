@@ -1,4 +1,4 @@
-package com.github.pahlevikun.multipleselectrecyclerview.presenter.interfaces;
+package com.github.pahlevikun.multipleselectrecyclerview.view.adapter.DataAdapter;
 
 import android.view.View;
 

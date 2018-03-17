@@ -5,7 +5,7 @@
  * Last Modified 12/22/17 11:28 PM
  */
 
-package com.github.pahlevikun.multipleselectrecyclerview.view.adapter;
+package com.github.pahlevikun.multipleselectrecyclerview.view.adapter.DataAdapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -38,7 +38,7 @@ public class SelectAdapter extends RecyclerView.Adapter<SelectAdapter.ViewHolder
 
     @Override
     public SelectAdapter.ViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
-        View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.adapter_list, viewGroup, false);
+        View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.adapter_list_data, viewGroup, false);
         return new ViewHolder(view);
     }
 

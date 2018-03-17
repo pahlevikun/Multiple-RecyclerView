@@ -7,4 +7,7 @@
     <color name="colorWhite">#ffff</color>
     <color name="colorBgSelect">#eaeaea</color>
     <color name="colorBgUnSelect">#ffffff</color>
+    <color name="colorBgAdapter">#dcdcdc</color>
+    <color name="colorBgAdapterSeparator">#c6c6c6</color>
+    <color name="colorBgDelete">#424242</color>
 </resources>
